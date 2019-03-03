@@ -14,10 +14,12 @@ newItem.style.backgroundColor = "#eaeaea";
 newItem.style.borderWidth = "3px";
 newItem.style.zIndex = "2";
 newItem.style.borderRadius = "10px";
-newItem.style.float = "left";
 newItem.style.textAlign = "center"
 newItem.style.padding = "4px";
 newItem.style.display = "inline";
+newItem.style.position = "absolute";
+newItem.style.left = "120px";
+newItem.style.top = "245px";
 
 node.appendChild(newItem);
 
