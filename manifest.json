@@ -16,7 +16,7 @@
             "*://my.deviantart.com/messages/*"
             ],
         "js": ["contentScript.js"],
-        "run_at": "document_idle"      // pay attention to this line
+        "run_at": "document_end"      // pay attention to this line
         }
     ],
     "web_accessible_resources": ["script.js"],
