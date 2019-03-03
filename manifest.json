@@ -8,16 +8,17 @@
     "browser_action": {
         "default_icon": "icon-19.png"
     },
-
     "content_scripts": [
         {
         "matches": [
             "http://*/*",
-            "https://*/*"
+            "https://*/*",
+            "*://my.deviantart.com/messages/*"
             ],
         "js": ["contentScript.js"],
-        "run_at": "document_idle"         // pay attention to this line
+        "run_at": "document_idle"      // pay attention to this line
         }
-    ], 
+    ],
+    "web_accessible_resources": ["script.js"],
     "manifest_version":2
 }

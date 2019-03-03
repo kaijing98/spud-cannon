@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -9,15 +10,22 @@
 </head>
 <body>
 
+
 <div class="container">
   <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">Toggle popover</a>
+  <button id="myPotatoes"></button>
 </div>
 
 <script>
-$(document).ready(function(){
-  $('[data-toggle="popover"]').popover();
-});
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  var price = document.getElementById("prcIsum").getAttribute("content");
+  var numPotatoes = parseInt(0.99+(parseFloat(price)/1.00));
+  console.log(numPotatoes);
 </script>
 
+
+
 </body>
-</html>
+</html> -->
